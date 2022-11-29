@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+*{
+    font-family: 'Nerko One', cursive;
+}
+.alto {
+    @media (min-width:992px) {
+        height: 100vh;
+    }
+}
+
+.hola {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
